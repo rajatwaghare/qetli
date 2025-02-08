@@ -45,7 +45,7 @@ export default function Home() {
           className="">
 
 
-          <video className=" w-full h-dvh object-cover " width="320" height="240" muted autoPlay playsInline preload='true'>
+          <video className=" w-full h-dvh object-cover " width="320" height="240" muted autoPlay playsInline>
       <source src="/video.mp4" type="video/mp4" />
       
     </video>
