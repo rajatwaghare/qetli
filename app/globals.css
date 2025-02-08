@@ -3,58 +3,22 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'Pilcrow';
-  src: url('/Pilcrow-Heavy.woff2') format('woff2');
-  font-weight: 900;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Pilcrow';
-  src: url('/Pilcrow-Medium.woff2') format('woff2');
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Pilcrow';
-  src: url('/Pilcrow-Semibold.woff2') format('woff2');
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Pilcrow';
-  src: url('/Pilcrow-Regular.woff2') format('woff2');
+  font-family: 'Squatina';
+  src: url('/Squatina-Regular.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
-@font-face {
-  font-family: 'Pilcrow Variable';
-  src: url('/PilcrowVariable-Regular.woff2') format('woff2');
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Pilcrow';
-  src: url('/Pilcrow-Bold.woff2') format('woff2');
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
-
-
-
 body {
-  font-family: 'Pilcrow';
+  background: #FFF4E8;
 }
+
+
+.headingfont {
+  font-family: 'Squatina', sans-serif;
+}
+
 
 @layer base {
   :root {
